@@ -31,10 +31,29 @@
 library(lcmm)
 library(timeROC)
 library(survival)
-library(scmamp)
+library(scmamp)  ## available at "https://github.com/b0rxa/scmamp"
 library(survminer)
 library(survival)
 library(ggplot2)
+
+#### > sessionInfo()
+#### R version 4.0.5 (2021-03-31)
+#### Platform: x86_64-w64-mingw32/x64 (64-bit)
+#### Running under: Windows >= 8 x64 (build 9200)
+#### 
+#### Matrix products: default
+#### 
+#### locale:
+#### [1] LC_COLLATE=French_France.1252  LC_CTYPE=French_France.1252   
+#### [3] LC_MONETARY=French_France.1252 LC_NUMERIC=C                  
+#### [5] LC_TIME=French_France.1252    
+#### 
+#### attached base packages:
+#### [1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+#### 
+#### other attached packages:
+#### [1] survminer_0.4.9 ggpubr_0.4.0    ggplot2_3.3.3   scmamp_0.2.55   timeROC_0.4    
+#### [6] lcmm_1.9.2      survival_3.2-10
 
 ###############################################
 ###############################################
