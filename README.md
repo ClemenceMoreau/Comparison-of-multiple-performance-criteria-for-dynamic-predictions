@@ -1,4 +1,4 @@
-## Performance criteria comparison from multiple dynamic prediction models
+## Predictive abilities comparison from multiple dynamic prediction models
 
 
 This repository contains additional material for the manuscript entitled « Comparison of multiple performance criteria for dynamic predictions » by Moreau et al.
