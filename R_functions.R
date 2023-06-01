@@ -425,7 +425,7 @@ Test_comp <- function(tab,horizon,nb_boot,nb_ind_boot){
   
   
   ##Post-hoc tests
-  if(global_pval<0.05){
+  if(global_pval<0.05 & nb_dyn_pred>2){
     
     nb_pairwise_comp <- choose(nb_dyn_pred,2)
     mat_gamma <- array(rep(NA,nb_pairwise_comp), dim = c(1,nb_pairwise_comp))
@@ -450,7 +450,7 @@ Test_comp <- function(tab,horizon,nb_boot,nb_ind_boot){
       }
     }
     
-    ## NaÃ¯ve p-values
+    ## Naïve p-values
     naive_pval <- matrix(NA, nrow = 1, ncol = nb_pairwise_comp)
     colnames(naive_pval) <- rep(NA, nb_pairwise_comp)
     c <- 0
